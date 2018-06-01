@@ -1,7 +1,8 @@
-#weRecommend {
-  display: none;
+
+.btn {
+  display: block;
 }
 
-#resultCSS, {
+#quote {
   display: none;
 }
