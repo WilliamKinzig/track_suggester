@@ -12,25 +12,34 @@
 <body>
   <div class="container">
 
-    <p>Select the answer that best descibes what you would like to do:</p>
+    <h2>Select the answer that best descibes you:</h2>
+
+    <div id="weRecommend">
+      Based on your answer we recommend you consider taking:
+      <div id="resultCSS">
+        CSS and Design
+      </div>
+    </div>
+
 
     <div class="radio">
       <label>
-        <input type="radio" name="CSS" value="chocolate" checked>
-        I would like working for a larger company on business software?
+        <input type="radio" name="course" value="1">
+        I enjoy spending my time making things look and work well, obsessing
+        over layouts, navigation, colors and design.
       </label>
     </div>
 
     <div class="radio">
       <label>
-        <input type="radio" name="CSS" value="chocolate" checked>
+        <input type="radio" name="course" value="c#">
         I like the idea of working for a larger company on business software?
       </label>
     </div>
 
     <div class="radio">
       <label>
-        <input type="radio" name="CSS" value="vanilla">
+        <input type="radio" name="course" value="Java">
         I am interested in working for an enterprise-level company, as an
         Android developer, or in high performance applications?
       </label>
@@ -38,7 +47,7 @@
 
     <div class="radio">
       <label>
-        <input type="radio" name="PHP" value="vanilla">
+        <input type="radio" name="course" value="PHP">
         I would like to work for a fast paced agency that builds websites for
         lots of clients, or maintain the security and stability of a huge complex
         of government websites, or if you like the idea of building out small
@@ -48,13 +57,13 @@
 
     <div class="radio">
       <label>
-        <input type="radio" name="RUBY" value="vanilla">
+        <input type="radio" name="course" value="RUBY">
         I want to build interactive web applications? Create apps
         that involve users creating accounts, entering information, and
         interacting with dynamic content?
       </label>
     </div>
-    <button type="submit" class="btn">Go!</button>
+    <button type="submit" class="btn">Submit</button>
   </div>
 </body>
 

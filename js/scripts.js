@@ -1,3 +1,11 @@
+
 $(document).ready(function() {
 
-var answer1 = $("input:radio[name=CSS]:checked").val();
+  var courseSuggestion = $("input:radio[name=course]:checked").val();
+
+  if (courseSuggestion === "1") {
+    $('#weRecommend').show();
+    $('#resultCSS').show();
+
+  }
+}
