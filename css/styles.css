@@ -1,8 +1,10 @@
 
 .btn {
-  display: block;
+  display   display: block;
 }
 
-#quote {
+#recommendation {
   display: none;
+  border: 3px;
+  border-color: red;
 }
